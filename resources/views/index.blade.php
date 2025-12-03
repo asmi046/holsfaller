@@ -20,7 +20,7 @@
                 <img class="hero-header__logo" src="{{ asset('img/logo.svg') }}" alt="Holsfaller">
                 <p class="hero-header__tagline">Профессиональные ленточные пилы <br>Европейского качества</p>
                 <a class="hero-header__phone" href="tel:+79192707805">+7 919 270-78-05</a>
-                <a class="button hero-header__cta" href="#order">Заказать</a>
+                <a class="button hero-header__cta" href="https://wa.me/79192707805">Заказать</a>
             </div>
         </div>
     </header>
