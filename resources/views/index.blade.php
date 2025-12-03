@@ -11,7 +11,9 @@
 @section('main')
 
     <header class="hero-header" id="hero-header">
-        <video class="hero-header__video" src="{{ asset('video/pili-video.mp4') }}" autoplay muted loop playsinline></video>
+        <video class="hero-header__video" poster="{{ asset('video/poster.jpg') }}" autoplay muted loop playsinline>
+            <source src="{{ asset('video/pili-video.mp4') }}" type="video/mp4">
+        </video>
         <div class="hero-header__overlay"></div>
         <div class="container">
             <div class="hero-header__content">
